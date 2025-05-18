@@ -9,9 +9,3 @@ To simplify initial local deployments, the pipelines are configured so that imag
 pushed to a local registry deployed on the cluster.
 
 Consult the [documentation](https://github.com/konflux-ci/konflux-ci?tab=readme-ov-file#konflux-ci) for using external image registries.
-
-Because I already have the directory, just updated document
-git add .tekton
-git commit -m "add pipelines"
-git push origin HEAD
-
