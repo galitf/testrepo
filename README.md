@@ -1,5 +1,6 @@
 # Example component for testing Konflux
 
+REtrigger
 TEST component
 
 TEST
