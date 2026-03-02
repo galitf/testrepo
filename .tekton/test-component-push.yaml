@@ -15,7 +15,7 @@ metadata:
     appstudio.openshift.io/component: test-component
     pipelines.appstudio.openshift.io/type: build
   name: test-component-on-push
-  namespace: default-tenant
+  namespace: user-ns2
 spec:
   params:
   - name: git-url
@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/grosenth_konflux/default-tenant/test-component:{{revision}}
+    value: quay.io/grosenth_konflux/user-ns2/test-component:{{revision}}
   - name: dockerfile
     value: Dockerfile
   - name: path-context
