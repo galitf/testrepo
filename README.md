@@ -1,5 +1,6 @@
 # Example component for testing Konflux
 
+TET
 TEST component
 
 TEST
