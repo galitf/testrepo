@@ -2,6 +2,7 @@
 
 TET
 TEST5
+TEST6
 TEST component
 
 TEST
